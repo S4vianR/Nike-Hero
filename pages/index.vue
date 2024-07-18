@@ -15,6 +15,15 @@
         <p id="releaseDate" class="text-lg font-heebo">
           Release Date: {{ releaseDate }}
         </p>
+        <div id="buttons" class="grid grid-cols-5 gap-2 mt-5 place-items-center justify-normal">
+          <button
+            v-for="size in shoeSizes"
+            :key="size"
+            class="w-10 h-10 border border-black rounded-xl"
+          >
+            {{ size }}
+          </button>
+        </div>
       </aside>
       <section class="relative flex flex-col items-center justify-center h-full p-12">
         <div>
