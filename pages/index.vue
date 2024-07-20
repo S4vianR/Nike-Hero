@@ -25,19 +25,19 @@
           </button>
         </div>
       </aside>
-      <section class="relative flex flex-col items-center justify-center h-full p-12">
-        <div>
-          <h1 class="text-[20rem] font-libreFranklin font-bold relative z-10 ">
+      <section class="relative flex flex-col items-center justify-center h-full">
+        <div class="absolute top-0 w-full h-full">
+          <h1 class="text-[20rem] font-libreFranklin font-bold text-center">
             NIKE
           </h1>
         </div>
         <div
-          class="absolute z-20 p-12 rounded-full shadow-2xl shadow-red-600 bg-gradient-to-t from-red-500 to-red-300 top-52"
+          class="absolute p-12 rounded-full shadow-2xl shadow-red-600 bg-gradient-to-t from-red-500 to-red-300 top-64"
         >
           <NuxtImg
             src="/assets/shoes.png"
-            width="300"
-            height="300"
+            width="350"
+            height="350"
             class="h-full"
           />
         </div>
